@@ -1,69 +1,36 @@
 # Streamlining Customer Orders and Payments in Iron Trading
 
-Welcome to the repository for the BDM Capstone Project: **Streamlining Customer Orders and Payments in Iron Trading**. This project was completed as part of the IIT Madras BS Degree Program and focuses on operational optimization for Aditya Iron Traders, a leading MSME in Delhi’s iron trading sector.
+A business data analysis of a B2B iron-trading MSME in New Delhi, with recommendations on order costs, cash flow and logistics.
 
----
+## Why this exists
+Capstone project for Business Data Management (BDM) in the IIT Madras BS in Data Science, April to August 2024 (roll no. 23f3004013). The data came from Aditya Iron Traders, Naraina Loha Mandi, New Delhi, with permission for academic use.
 
-## Project Overview
+## What it does
+- Analyses five months of sales, payment, expense and location data for 136 business customers
+- Cleans the data: duplicates, cancelled entries, inconsistent fields
+- Groups payment delays into 90-day bands and customers by PIN-code zone
+- Finds three problems: costly small orders, slow payments, and delivery congestion in a few zones
+- Recommends order consolidation, payment-term changes and zone-based delivery, with a 12-month roadmap
 
-**Organization:** Aditya Iron Traders, Naraina Loha Mandi, New Delhi  
-**Industry:** Iron and iron products trading (primarily B2B)  
-**Project Duration:** April 2024 – August 2024  
-**Author:** Abhishek Jha (Roll No. 23f3004013), IIT Madras
+## Project structure
+```
+BDM-Project/
+├── Proposal            Project proposal
+├── Mid Term Report.pdf Interim analysis
+├── Final Report.pdf    Full analysis and recommendations
+└── Presentation.pptx   Final presentation slides
+```
 
-This capstone project analyzes five months of transactional, operational, and payment data to identify and solve key business challenges in cost management, cash flow, and logistics.
+## Getting started
+Open `Final Report.pdf` for the full analysis. No code to run; the work was done in Microsoft Excel.
 
----
+## Tech stack
+Microsoft Excel (pivot tables, conditional formatting, charts, basic statistics)
 
-## Objectives
-
-- **Reduce operational costs** by optimizing customer order frequency and labor allocation.
-- **Improve cash flow** by addressing delayed customer payments.
-- **Enhance logistics efficiency** by analyzing and rebalancing regional delivery operations.
-
----
-
-## Data & Methodology
-
-**Data Sources:**
-- Transactional sales data (136 business customers, order dates, amounts, locations)
-- Pending payments and payment delays (days outstanding)
-- Operational expenses (labor charges, salaries, indirect costs)
-- Geographical data (customer PIN codes)
-- Profit & loss summaries
-
-**Data Handling:**
-- Data was provided directly by Aditya Iron Traders, with formal authorization for academic analysis.
-- Data cleaning involved removing duplicates, invalid/canceled entries, and standardizing fields.
-- Payment delays were binned (0–90, 91–180, 181–270, 271–360 days) for segment analysis.
-- PIN codes were grouped to analyze regional sales and logistics patterns.
-
-**Tools Used:**
-- Microsoft Excel (data cleaning, aggregation, visualization)
-- Pivot tables, conditional formatting, basic statistics
-
----
-
-## Key Problem Statements
-
-1. **Operational Cost Inefficiency:**  
-   Frequent small-value orders increase labor and transportation costs without proportional revenue gain.
-
-2. **Delayed Customer Payments:**  
-   Extended payment cycles block working capital and strain cash flow.
-
-3. **Logistics Bottlenecks:**  
-   High sales concentration in specific zones causes delivery delays and resource strain, while other regions remain under-served.
-
----
-
-## Major Findings
-
-- **Labor charges** accounted for 30–43% of revenue in peak months; months with more consolidated orders saw a notable drop in labor costs and a rise in net profit margin.
-- **Payment delays**: 55% of customers pay within 90 days, but over 40% delay payments up to or beyond 180 days, blocking up to 14% of working capital.
-- **Regional sales**: Over 53% of revenue comes from a single PIN code (Zone 13), with another 35% from two adjacent zones, leading to delivery congestion and missed opportunities elsewhere.
-
----
+## Key findings
+- Labour charges were 30-43% of revenue in peak months; months with more consolidated orders had lower labour costs
+- 55% of customers pay within 90 days, but over 40% take 180 days or more, blocking up to 14% of working capital
+- Over 53% of revenue comes from one PIN-code zone and another 35% from two neighbouring zones
 
 ## Recommendations
 
@@ -105,15 +72,6 @@ This capstone project analyzes five months of transactional, operational, and pa
 - Operational cost reduction by up to 25%
 - Improved cash flow by unlocking 14% of blocked capital
 - Enhanced delivery efficiency and customer satisfaction, supporting sustainable market expansion
-
----
-
-## Repository Structure
-
-- `Proposal.pdf` — Proposal of problem statement
-- `Mid-Term-Report.pdf` — Mid-term progress report with initial findings and data handling details
-- `Final-Report.pdf` — Complete capstone project report with in-depth analysis and recommendations
-- `Presentation.pptx` — Project presentation summarizing methodology, findings, and strategic roadmap
 
 ---
 
